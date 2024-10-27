@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px; 
+}
+
+
+.LogoSite {
+    position: absolute; 
+    top: 10px; 
+    left: 10px;
+}
+
+.logositelogo {
+    height: 80px; 
+    margin-right: 10px; 
+}
+
+.MesBoutons {
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    gap: 20px; 
+    margin-bottom: 20px; 
+}
+
+.carte {
+    display: flex;
+    justify-content: center; 
+    width: 200px; 
+    height: 300px; 
+    object-fit: cover; 
+}
+
+.CartesContainer img {
+    width: 200px; 
+    height: 300px; 
+    object-fit: cover; 
+}
+
+.TypePokemonContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh; 
+}
+
+.Recherche {
+    margin-bottom: 20px;
+}
+
+.BarreDeRecherche {
+    width: 300px; 
+}
+
+
+
